@@ -1,6 +1,6 @@
 # dhemax
 
-![Logo del Proyecto](https://raw.githubusercontent.com/tu_nombre_de_usuario/dhemax/main/src/assets/img/miimagen.png)
+![Logo del Proyecto](https://github.com/kasius/dhemax/blob/main/miimagen.gif?raw=true)
 
 ## Descripción
 
