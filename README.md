@@ -1,27 +1,53 @@
-# Dhemax
+# dhemax
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+![Logo del Proyecto](https://raw.githubusercontent.com/tu_nombre_de_usuario/dhemax/main/src/assets/img/miimagen.png)
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este proyecto es una aplicación Angular diseñada para visualizar puntos de carga en un mapa y gestionarlos a través de una tabla. Utiliza Leaflet para el componente del mapa y hace peticiones a la API de OpenChargeMap.
 
-## Code scaffolding
+## Pre-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js y npm instalados.
+- Angular CLI
 
-## Build
+## Instrucciones de instalación y ejecución
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Clona el repositorio**
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/tu_nombre_de_usuario/dhemax.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. **Navega al directorio del proyecto**
 
-## Running end-to-end tests
+   ```bash
+   cd dhemax
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. **Instala las dependencias**
 
-## Further help
+   ```bash
+   npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. **Ejecuta la aplicación**
+
+   ```bash
+   ng serve
+
+5. **Abre tu navegador y visita http://localhost:4200/ para ver la aplicación en acción**
+
+
+
+## Uso
+
+Una vez que la aplicación esté en funcionamiento:
+
+1. Navega a través del mapa para ver los puntos de carga.
+2. Utiliza la tabla debajo del mapa para filtrar, buscar y ordenar los puntos de carga según tus preferencias.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir lo que te gustaría cambiar. Asegúrate de actualizar los tests según corresponda.
+
+## Licencia
+
+MIT
